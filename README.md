@@ -690,18 +690,4 @@ npm run preview    # Preview del build
 
 ---
 
-## Decisiones de diseño relevantes para el CV
-
-Este proyecto demuestra competencias en:
-
-- **Arquitectura SaaS multi-tenant** — aislamiento de datos por empresa a nivel de BD.
-- **API REST bien estructurada** — separación estricta controller/service/queries.
-- **Integración de LLMs** — uso de Claude API para features de IA accionables, no decorativas.
-- **TypeScript estricto** en frontend y backend, con tipos compartidos.
-- **Seguridad** — JWT con refresh tokens, soft delete, validaciones en múltiples capas.
-- **Diseño orientado a producto** — decisiones técnicas guiadas por el problema real del usuario.
-- **Escalabilidad** — arquitectura lista para multi-sucursal, planes diferenciados y API pública.
-
----
-
 *Savy — Hecho para que las PYMEs tomen mejores decisiones, más rápido.*
